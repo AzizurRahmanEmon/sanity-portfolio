@@ -16,17 +16,17 @@ const WorkExperience = (props: Props) => {
         Experience
       </h3>
       <div className="w-full flex space-x-5 p-10">
-        <article className=" flex drop-shadow-xl flex-col rounded-3xl items-center space-y-0 flex-shrink-0 w-[80%] mx-auto snap-center bg-[#292929] p-5 md:p10 hover:opacity-100 opacity-100 cursor-pointer transition-opacity duration-200 ">
+        <article className=" flex drop-shadow-xl flex-col rounded-3xl items-center space-y-0 flex-shrink-0 w-[80%] mx-auto snap-center bg-[#292929] p-5 md:p10 hover:opacity-100 opacity-100 cursor-pointer transition-opacity duration-200 sm:p-0">
           <motion.img
             initial={{ opacity: 0, y: -100 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 1.2 }}
-            className=" md:invisible xl:visible md:h-0 w-28 h-28 md:w-0 rounded-full xl:w-[150px] xl:h-[150px] mb-2 object-cover object-center"
+            className=" md:invisible xl:visible md:h-0 w-28 h-28 md:w-0 rounded-full xl:w-[150px] xl:h-[150px] mb-2 object-cover object-center sm:hidden xl:block xl:mt-5"
             src="https://res.cloudinary.com/deuhv7bop/image/upload/v1700821579/bqmisgpwd4xj0ttdkqbx.jpg"
             alt=""
           />
-          <div className="flex px-14 py-20 gap-14">
+          <div className="flex px-14 py-20 gap-14 sm:p-7">
             <div className="flex flex-col">
               <div>
                 <h4 className="text-4xl font-light">Frontend Web Developer</h4>
@@ -54,7 +54,7 @@ const WorkExperience = (props: Props) => {
               </div>
             </div>
             <div className="flex">
-                <ul className="list-disc space-y-4 ml-5 text-lg">
+                <ul className="list-disc space-y-4 ml-5 text-lg sm:hidden lg:text-sm lg:block xl:text-lg">
               <li>
                 Developed and maintained React Next JS web templates for
                 ThemeForest.

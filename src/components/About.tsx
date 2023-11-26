@@ -28,7 +28,7 @@ const About = (props: Props) => {
           duration: 1.2,
         }}
         src="https://res.cloudinary.com/deuhv7bop/image/upload/v1700820557/hbfg7bnarcliiw1b8eb8.jpg"
-        className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px] sm:mt-10"
+        className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px] sm:mt-10 sm:hidden md:block"
       />
       <div className="space-y-10 px-0 md:px-10">
         <h4 className="text-4xl font-semibold">

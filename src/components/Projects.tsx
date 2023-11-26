@@ -27,15 +27,15 @@ const Projects = (props: Props) => {
                     viewport={{once: true}}
                     src={project.img}
                     alt={project.name}
-                    className='h-[200px] w-[300px] object-fit'
+                    className='h-[200px] w-[300px] object-fit sm:hidden lg:block lg:mt-3 xl:h-[200px] xl:w-[300px]'
                     />
                     <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
-                        <h4 className='text-4xl font-semibold text-center'>
+                        <h4 className='text-4xl font-semibold text-center sm:text-2xl xl:text-3xl 2xl:text-4xl'>
                             <span className="underline decoration-[#16a5e2]/50">
                               {project.name}  
                             </span>
                         </h4>
-                        <ul className="text-lg text-center md:text-left">
+                        <ul className="text-lg text-center md:text-left xl:text-lg">
                            {project.list.map((item,index) => (
                             <li  key={index}>{item}</li>
                            ))}

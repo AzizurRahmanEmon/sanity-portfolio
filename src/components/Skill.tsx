@@ -11,7 +11,7 @@ const Skill = ({directionLeft,src,alt,mastery}: Props) => {
   return (
     <motion.div 
     initial={{
-        x: directionLeft ? -200 : 200,
+        x: directionLeft ? -100 : 100,
         opacity: 0
     }}
     transition={{duration: 1}}
