@@ -43,6 +43,29 @@ export const iconImages = [
 
   export const projectData = [
     {
+      img: 'https://res.cloudinary.com/deuhv7bop/image/upload/v1700943261/digiboard_ya7f7o.avif',
+      name: 'Digiboard - Multipurpose Admin Dashboard Template',
+      list: [
+      'Created both React and Next JS versions of the template.',
+      'Enhanced the React JS version using Vite CLI and Next JS pages router for improved performance and routing.',
+      'Utilized CSS3 and JavaScript to ensure a consistent and interactive user experience across both versions.',
+      'Used Bootstrap 5 to create a responsive and user-friendly interface.',
+      "Leveraged React's Context API for efficient state management, enabling seamless data sharing between components.",
+      ' Adhered to responsive design principles to ensure optimal user experience on all devices, including desktops, tablets, and smartphones.']
+    },
+    {
+      img: 'https://res.cloudinary.com/deuhv7bop/image/upload/v1704733452/dbwaz5naw2tqosoydhcl.avif',
+      name: 'Personal Portfolio & Resume React Next.js Template - Porichiti',
+      list: [
+        'Used Next JS app router.',
+        'Used TypeScript to add type annotations to code, making it more readable and preventing errors.',
+        'Used CSS3 to style the web template.',
+        'Used Bootstrap 5 to create a responsive and user-friendly interface.',
+        'Used Gsap and Framer Motion for animation.',
+        'Used Redux Toolkit to share data between components in the web template.']
+
+    },
+    {
       img: 'https://res.cloudinary.com/deuhv7bop/image/upload/v1700943261/talim_ops5om.avif',
       name: 'Education Nextjs Template | Education - Talim',
       list: ['Used Next JS app router to create a dynamic routing system.','Used TypeScript to add type annotations to code, making it more readable and preventing errors.','Used CSS3 to style the web template.','Used Bootstrap 5 to create a responsive and user-friendly interface.','Used React Bootstrap to create a set of React components based on Bootstrap 5.','Used Context API to share data between components in the web template.']
@@ -61,16 +84,5 @@ export const iconImages = [
         'Implemented data fetching from a REST API using Axios to retrieve and display real-time data.',
         "Leveraged React's Context API to manage state efficiently and ensure consistent data sharing across components.",
         'Built a Jamstack architecture, harnessing the power of SSR, API-driven data, and progressive enhancement techniques to deliver a seamless, scalable, and responsive web experience.']
-    },
-    {
-      img: 'https://res.cloudinary.com/deuhv7bop/image/upload/v1700943261/digiboard_ya7f7o.avif',
-      name: 'Digiboard - Multipurpose Admin Dashboard Template',
-      list: [
-      'Created both React and Next JS versions of the template.',
-      'Enhanced the React JS version using Vite CLI and Next JS pages router for improved performance and routing.',
-      'Utilized CSS3 and JavaScript to ensure a consistent and interactive user experience across both versions.',
-      'Used Bootstrap 5 to create a responsive and user-friendly interface.',
-      "Leveraged React's Context API for efficient state management, enabling seamless data sharing between components.",
-      ' Adhered to responsive design principles to ensure optimal user experience on all devices, including desktops, tablets, and smartphones.']
     },
   ]

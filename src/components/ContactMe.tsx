@@ -1,11 +1,19 @@
 import { ValidationError, useForm } from '@formspree/react';
 import { EnvelopeIcon, MapPinIcon, PhoneIcon } from '@heroicons/react/24/solid';
+import * as dotenv from 'dotenv';
+dotenv.config();
 import React from 'react';
-
+declare const process: {
+  env: {
+    FORMSPREE_FORM_ID: string;
+  };
+};
 type Props = {};
 
 const ContactMe = (props: Props) => {
-  const [state, handleSubmit] = useForm("mjvqqyql"); // Replace 'YOUR_FORM_ID' with your actual Formspree form ID
+  const formId: string = process.env.FORMSPREE_FORM_ID;
+
+const [state, handleSubmit] = useForm(`${formId}`);
   return (
     <div className="h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
       <h3 className="absolute top-24 uppercase text-gray-500 text-2xl tracking-[20px]">Contact</h3>
