@@ -45,6 +45,7 @@ export const iconImages = [
     {
       img: 'https://res.cloudinary.com/deuhv7bop/image/upload/v1700943261/digiboard_ya7f7o.avif',
       name: 'Digiboard - Multipurpose Admin Dashboard Template',
+      url: 'https://themeforest.net/item/digiboard-multipurpose-admin-dashboard-template/47154328?s_rank=8',
       list: [
       'Created both React and Next JS versions of the template.',
       'Enhanced the React JS version using Vite CLI and Next JS pages router for improved performance and routing.',
@@ -56,6 +57,7 @@ export const iconImages = [
     {
       img: 'https://res.cloudinary.com/deuhv7bop/image/upload/v1704733452/dbwaz5naw2tqosoydhcl.avif',
       name: 'Personal Portfolio & Resume React Next.js Template - Porichiti',
+      url: 'https://themeforest.net/item/personal-portfolio-resume-react-nextjs-template-porichiti/49855968?s_rank=1',
       list: [
         'Used Next JS app router.',
         'Used TypeScript to add type annotations to code, making it more readable and preventing errors.',
@@ -68,16 +70,19 @@ export const iconImages = [
     {
       img: 'https://res.cloudinary.com/deuhv7bop/image/upload/v1700943261/talim_ops5om.avif',
       name: 'Education Nextjs Template | Education - Talim',
+      url: 'https://themeforest.net/item/education-nextjs-template-education-talim/48823607?s_rank=2',
       list: ['Used Next JS app router to create a dynamic routing system.','Used TypeScript to add type annotations to code, making it more readable and preventing errors.','Used CSS3 to style the web template.','Used Bootstrap 5 to create a responsive and user-friendly interface.','Used React Bootstrap to create a set of React components based on Bootstrap 5.','Used Context API to share data between components in the web template.']
     },
     {
       img: 'https://res.cloudinary.com/deuhv7bop/image/upload/v1700943261/cafeu_vpoy0w.avif',
       name: 'Restaurant Website Template NextJs - Cafeu',
+      url: 'https://themeforest.net/item/restaurant-website-template-nextjs-cafeu/48308605?s_rank=3',
       list: ['Used Next JS app router to create a dynamic routing system.','Used TypeScript to add type annotations to code, making it more readable and preventing errors.','Used CSS3 to style the web template.','Used Bootstrap 5 to create a responsive and user-friendly interface.','Used React Bootstrap to create a set of React components based on Bootstrap 5.','Used Context API to share data between components in the web template.']
     },
     {
       img: 'https://res.cloudinary.com/deuhv7bop/image/upload/v1700943261/farzaa_ekwihu.avif',
       name: 'Multipurpose eCommerce React Next JS Template - Farzaa',
+      url: 'https://themeforest.net/item/multipurpose-ecommerce-react-next-js-template-farzaa/47494851?s_rank=7',
       list: [
         ' Developed a dynamic and performant responsive web application using Next.js server-side rendering (SSR) and routing.',
         'Enhanced the user interface with CSS3, Bootstrap 5, and React Bootstrap to create a visually appealing and responsive design.',
